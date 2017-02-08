@@ -1,0 +1,32 @@
+header.header
+    .header__top
+        .container
+            .header__left
+                .header__logo Market
+                    span.header__logo-span Supply
+            .header__right
+                .control
+                    ul.control__list
+                        li.control__item
+                            a.control__link(href="#") My Account
+                        li.control__item
+                            a.control__link(href="#") Wishlist
+                        li.control__item
+                            a.control__link(href="#") My Cart
+                        li.control__item
+                            a.control__link(href="#") Checkout
+                        li.control__item
+                            a.control__link(href="#") Login
+                .search-basket
+                    from.search
+                        input.search__text(name="search" placeholder="Search here...")
+                        button.search__submit(type="submit" value="")
+                    a(href="#").basket
+                        .basket__container
+                            .basket__sign
+                            .basket__money
+                                .basket__title Total
+                                .basket__sum $600.00
+    .header__bottom
+        .container
+            include ../components/_navbar
