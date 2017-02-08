@@ -1,0 +1,89 @@
+.space {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 375px;
+  background: url(../img/bg/banner.jpg) center center / cover;
+
+  &__theme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    line-height: 1;
+    font-family: Lato;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #303a7a;
+  }
+
+  &__slogan {
+    margin-bottom: 5px;
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  &__desc {
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  &__btn {
+    display: block;
+    padding: 0 17px 0 24px;
+    font-size: 18px;
+    line-height: 2.11;
+    color: #000;
+    border: 2px solid #000;
+
+    &:hover {
+      background: #f10e34;
+    }
+  }
+}
+
+.feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 79px;
+  background: #f10e34;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    line-height: 1.2;
+    font-family: Lato;
+    color: #fff;
+  }
+
+  &__title {
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+}
+.COLLECTION_2016_save_50__for_FIRST_PURCHASE_ {
+  font-size: 26px;
+  font-family: "Lato";
+  color: rgb(48, 58, 122);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.13);
+  -moz-transform: matrix( 1.46207069926192,0,0,1.46207069926192,0,0);
+  -webkit-transform: matrix( 1.46207069926192,0,0,1.46207069926192,0,0);
+  -ms-transform: matrix( 1.46207069926192,0,0,1.46207069926192,0,0);
+  position: absolute;
+  left: 649.197px;
+  top: 273.973px;
+  z-index: 240;
+}

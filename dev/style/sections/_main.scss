@@ -1,0 +1,16 @@
+.main {
+  background: #f3f3f3;
+
+  .container {
+    display: flex;
+  }
+
+  &__left {
+    width: 297px;
+    margin-right: 39px;
+  }
+
+  &__right {
+    width: 834px;
+  }
+}
