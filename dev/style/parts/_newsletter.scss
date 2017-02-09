@@ -1,0 +1,59 @@
+.newsletter {
+  height: 267px;
+  margin-bottom: 32px;
+  padding: 0 22px 0 24px;
+  background: #fff;
+
+  &__title {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 245px;
+      height: 1px;
+      background: #eaeaea;
+    }
+  }
+}
+
+.sign-up {
+
+  &__desc, &__email {
+    font-size: 15px;
+    line-height: 3.33;
+    font-family: Lato;
+    color: #3d3d3d;
+  }
+
+  &__email {
+    margin-bottom: 23px;
+    padding: 0 10px;
+    width: 250px;
+    height: 45px;
+    border-radius: 6px;
+    background: #f3f3f3;
+  }
+
+  &__btn {
+    padding: 15px 25px 15px 24px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: Lato;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 24px;
+    background: #f22f49;
+
+    &:hover {
+      background: darken(#f22f49, 10%);
+    }
+  }
+}
+
+.tile-title_newsletter {
+  line-height: 2.6;
+}
