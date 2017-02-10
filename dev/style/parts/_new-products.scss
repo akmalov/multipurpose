@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 424px;
+  margin-bottom: 30px;
   padding: 0 28px 0 25px;
   background: #ffffff;
 
@@ -10,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 17px;
+    padding-left: 15px;
     margin-bottom: 26px;
 
     &:after {
