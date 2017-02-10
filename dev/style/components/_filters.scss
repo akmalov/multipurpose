@@ -1,0 +1,29 @@
+.filters {
+  display: flex;
+  margin-right: 48px;
+
+  &__item {
+    font-size: 15px;
+    line-height: 3.33;
+    font-family: Lato;
+    font-weight: 400;
+    color: #3d3d3d;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:first-child {
+      margin-right: 19px;
+    }
+
+    &:nth-child(2) {
+      margin-right: 29px;
+    }
+
+    &:nth-child(3) {
+      margin-right: 25px;
+    }
+  }
+}

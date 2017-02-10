@@ -6,26 +6,3 @@
   color: #000;
   text-transform: uppercase;
 }
-
-.keys {
-  display: flex;
-  cursor: pointer;
-
-  &__prev, &__next {
-    background-image: url(../img/icons/keys.png);
-    background-repeat: no-repeat;
-  }
-
-  &__prev {
-    margin-right: 6px;
-    width: 22px;
-    height: 22px;
-    background-position: -10px -10px;
-  }
-
-  &__next {
-    width: 22px;
-    height: 22px;
-    background-position: -52px -10px;
-  }
-}

@@ -1,0 +1,48 @@
+.products {
+  display: flex;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 27px;
+  }
+
+  &__photo {
+
+    &-image {
+      width: 176px;
+      height: 202px;
+    }
+  }
+}
+
+.product-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: Lato;
+
+  &__price {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+
+    &-old {
+      margin-right: 16px;
+      text-decoration: line-through;
+    }
+
+    &-current {
+      font-weight: 700;
+    }
+  }
+
+  &__rating {
+    width: 86px;
+    height: 14px;
+  }
+}

@@ -1,14 +1,12 @@
 aside.deal.deal_hot
     .deal__top
         .tile-title Hot Deals
-        .keys
-            .keys__prev
-            .keys__next
+        include ../components/_keys
     .deal__middle
         img.deal__photo(src="img/content/hot-deals.png")
-    .deal__bottom
-        .deal__product-name Lorem ipsum dolor
-        .deal__price
-            .deal__price-old $100.00
-            .deal__price-current $90.00
-        img.deal__rating(src="img/icons/4-stars.png")
+    .product-desc
+        .product-desc__name Lorem ipsum dolor
+        .product-desc__price
+            .product-desc__price-old $100.00
+            .product-desc__price-current $90.00
+        img.product-desc__rating(src="img/icons/4-stars.png")

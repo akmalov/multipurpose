@@ -52,6 +52,7 @@
   justify-content: space-around;
   align-items: center;
   height: 79px;
+  margin-bottom: 33px;
   background: #f10e34;
 
   &__item {
@@ -70,20 +71,4 @@
     word-spacing: 1.8px;
     text-transform: uppercase;
   }
-}
-.COLLECTION_2016_save_50__for_FIRST_PURCHASE_ {
-  font-size: 26px;
-  font-family: "Lato";
-  color: rgb(48, 58, 122);
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
-  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.13);
-  -moz-transform: matrix( 1.46207069926192,0,0,1.46207069926192,0,0);
-  -webkit-transform: matrix( 1.46207069926192,0,0,1.46207069926192,0,0);
-  -ms-transform: matrix( 1.46207069926192,0,0,1.46207069926192,0,0);
-  position: absolute;
-  left: 649.197px;
-  top: 273.973px;
-  z-index: 240;
 }

@@ -44,29 +44,4 @@
     width: 252px;
     height: 203px;
   }
-
-  &__bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 15px;
-    line-height: 1.8;
-    font-family: Lato;
-  }
-
-  &__price {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2px;
-
-    &-old {
-      margin-right: 16px;
-      text-decoration: line-through;
-    }
-
-    &-current {
-      font-weight: 700;
-    }
-  }
 }

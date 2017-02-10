@@ -1,0 +1,33 @@
+.new-products {
+  display: flex;
+  flex-direction: column;
+  height: 424px;
+  padding: 0 28px 0 25px;
+  background: #ffffff;
+
+  &__top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 17px;
+    margin-bottom: 26px;
+
+    &:after {
+      position: absolute;
+      content: '';
+      left: -6px;
+      bottom: -1px;
+      width: 795px;
+      height: 1px;
+      background: #eaeaea;
+    }
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+  }
+
+
+}
