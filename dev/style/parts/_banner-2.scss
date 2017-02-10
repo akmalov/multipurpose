@@ -1,0 +1,46 @@
+.banner-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 226px;
+  margin-bottom: 40px;
+  padding-right: 40px;
+  background: url(../img/bg/banner-2.jpg) center center / cover;
+  line-height: 1.2;
+  font-family: Lato;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__title, &__slogan {
+    font-size: 22px;
+  }
+
+  &__title {
+    color: #000;
+  }
+
+  &__slogan {
+    margin-bottom: 20px;
+    color: #0f8ce9;
+  }
+
+  &__btn {
+    display: block;
+    padding: 0 22px;
+    font-size: 16px;
+    line-height: 2.86;
+    color: #fff;
+    border-radius: 20px;
+    background: #f22f49;
+
+    &:hover {
+      background: darken(#f22f49, 10%);
+    }
+  }
+}
