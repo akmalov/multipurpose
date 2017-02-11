@@ -11,18 +11,6 @@
     align-items: flex-start;
   }
 
-  &__logo {
-    font-size: 25px;
-    line-height: 3.8;
-    font-family: Lato;
-    font-style: italic;
-    color: #f10e34;
-
-    &-span {
-      color: #fff;
-    }
-  }
-
   &__right {
     display: flex;
     flex-direction: column;

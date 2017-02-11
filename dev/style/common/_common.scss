@@ -1,3 +1,15 @@
+.logo {
+  font-size: 25px;
+  line-height: 3.8;
+  font-family: Lato;
+  font-style: italic;
+  color: #f10e34;
+
+  &__span {
+    color: #fff;
+  }
+}
+
 .tile-title {
   font-size: 22px;
   line-height: 3.32;
@@ -5,4 +17,16 @@
   font-weight: 700;
   color: #000;
   text-transform: uppercase;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 183px;
+  background: #f10e34;
+
+  &__image {
+    display: block;
+  }
 }
