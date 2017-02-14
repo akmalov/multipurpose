@@ -1,7 +1,7 @@
 .featured-products {
   display: flex;
   flex-direction: column;
-  height: 389px;
+  min-height: 389px;
   margin-bottom: 70px;
   padding: 0 20px 0 40px;
   background: #fff;
@@ -40,6 +40,14 @@
     flex-direction: row;
     align-items: flex-start;
     margin: 0 28px 64px 0;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    &:nth-child(4n) {
+      margin-right: 28px;
+    }
   }
 
   &__photo_featured {

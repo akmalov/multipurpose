@@ -1,8 +1,12 @@
 .filters {
   display: flex;
-  margin-right: 48px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  max-width: 370px;
+  margin-right: 20px;
 
   &__item {
+    margin-right: 25px;
     font-size: 15px;
     line-height: 3.33;
     font-family: Lato;
@@ -12,18 +16,6 @@
 
     &:hover {
       text-decoration: underline;
-    }
-
-    &:first-child {
-      margin-right: 19px;
-    }
-
-    &:nth-child(2) {
-      margin-right: 29px;
-    }
-
-    &:nth-child(3) {
-      margin-right: 25px;
     }
   }
 }

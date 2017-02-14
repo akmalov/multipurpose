@@ -2,7 +2,7 @@
   background: #222222;
 
   &__top {
-    height: 115px;
+    min-height: 115px;
   }
 
   .container {
@@ -24,11 +24,14 @@
 }
 
 .control {
+  max-width: 780px;
   padding-right: 10px;
   margin-bottom: 10px;
 
   &__list {
     display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
   }
 
   &__item {
@@ -38,7 +41,7 @@
       .control__link {
         margin-right: 0;
 
-        &:before {
+        &:after {
           display: none;
         }
       }
@@ -54,7 +57,7 @@
     line-height: 3.5;
     color: #fff;
 
-    &:before {
+    &:after {
       content: '';
       position: absolute;
       top: 17px;
@@ -135,6 +138,10 @@
     border-radius: 50%;
     background: #f10e34;
 
+    &:hover {
+      background: darken(#f10e34, 10%);
+    }
+
     &:after {
       content: '';
       position: absolute;
@@ -158,9 +165,11 @@
   }
 
   &__sum {
+    max-width: 180px;
     font-size: 14px;
     line-height: 1.2;
     font-family: Lato;
     font-weight: 700;
+    overflow: hidden;
   }
 }
